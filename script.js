@@ -141,5 +141,11 @@ function ejercicio13(numeroPersonas, numeroDias){
 }
 console.log(ejercicio13(2,3));
 
+/*********************************************************/
+
+const ejercicio14 = (numeroDias) => {
+    return 100000 + ((numeroDias - 1) * 200000);
+};
+console.log(ejercicio14(2));
 
 
