@@ -133,4 +133,13 @@ function ejercicio12 (numeroPeliculas, numeroDias) {
 };
 console.log(ejercicio12(4, 2));
 
+/*********************************************************/
+
+function ejercicio13(numeroPersonas, numeroDias){
+    const sinIva = ((numeroPersonas * 25000) * numeroDias);
+    return sinIva + (sinIva * 0.12);
+}
+console.log(ejercicio13(2,3));
+
+
 
