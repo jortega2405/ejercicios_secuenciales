@@ -75,6 +75,11 @@ console.log(ejercicio5(2500000));
 
 /*********************************************************/
 
+function ejercicio6 (numeroPalabras, tamaño, colores){
+    return (numeroPalabras * 20000) + (tamaño * 15000) + (colores * 25000);
+};
+console.log(ejercicio6(57,12,4));
+
 
 
 
