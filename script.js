@@ -101,6 +101,11 @@ console.log(ejercicio8(48));
 
 /*********************************************************/
 
+function ejercicio9 ( montoInicial, montoFinal){
+    const consumo = montoInicial - montoFinal;
+    return consumo - (consumo * 0.2);
+};
+console.log(ejercicio9(1000, 700))
 
 
 
