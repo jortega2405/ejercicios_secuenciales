@@ -90,6 +90,17 @@ console.log(ejercicio7(2))
 
 /*********************************************************/
 
+function ejercicio8 (horas){
+    let datos = {
+        totalPagar: (horas * 20000) - ((horas * 20000)*0.05),
+        descuento: (horas * 20000) * 0.05
+    };
+    return datos;
+};
+console.log(ejercicio8(48));
+
+/*********************************************************/
+
 
 
 
