@@ -115,3 +115,16 @@ function ejercicio10 (numeroFotos){
 };
 console.log(ejercicio10(45));
 
+/*********************************************************/
+
+function ejercicio11 (montoPresupuestal){
+    const datos = {
+        ginecologia: montoPresupuestal*0.4,
+        traumatologia: montoPresupuestal*0.3,
+        pediatria: montoPresupuestal*0.3
+    };
+    return datos;
+};
+console.log(ejercicio11(7000));
+
+
