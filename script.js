@@ -143,9 +143,20 @@ console.log(ejercicio13(2,3));
 
 /*********************************************************/
 
-const ejercicio14 = (numeroDias) => {
+function ejercicio14(numeroDias){
     return 100000 + ((numeroDias - 1) * 200000);
 };
 console.log(ejercicio14(2));
+
+/*********************************************************/
+function ejercicio15 (prestamo){
+    const total = prestamo + (prestamo * 0.24);
+    const datos = {
+        cuotasEspeciales: (total / 2) / 4,
+        cuotasOrdinarias: (total / 2) / 20
+    };
+    return datos;
+};
+console.log(ejercicio15(2000000));
 
 
