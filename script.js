@@ -23,3 +23,8 @@ function y3(){
     return y;
 };
 console.log(y3());
+
+function ejercicio1 (presion, volumen, temperatura){
+    return (presion * volumen) / (0.37 * (temperatura + 460));
+};
+console.log(ejercicio1(43,38.5,35));
