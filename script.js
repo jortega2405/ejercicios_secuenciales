@@ -107,5 +107,11 @@ function ejercicio9 ( montoInicial, montoFinal){
 };
 console.log(ejercicio9(1000, 700))
 
+/*********************************************************/
 
+function ejercicio10 (numeroFotos){
+    const sinIva = numeroFotos * 1500;
+    return sinIva + (sinIva * 0.16);
+};
+console.log(ejercicio10(45));
 
