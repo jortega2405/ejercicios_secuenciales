@@ -126,5 +126,11 @@ function ejercicio11 (montoPresupuestal){
     return datos;
 };
 console.log(ejercicio11(7000));
+/*********************************************************/
+
+function ejercicio12 (numeroPeliculas, numeroDias) {
+    return ((numeroPeliculas-1) * 1500) * numeroDias;
+};
+console.log(ejercicio12(4, 2));
 
 
