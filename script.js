@@ -80,7 +80,15 @@ function ejercicio6 (numeroPalabras, tamaño, colores){
 };
 console.log(ejercicio6(57,12,4));
 
+/*********************************************************/
 
+function ejercicio7 (a) {
+    return ((a-1)* 120000) + 100000;
+};
+console.log(ejercicio7(2))
+
+
+/*********************************************************/
 
 
 
