@@ -35,3 +35,15 @@ function ejercicio2 (edad){
 };
 console.log(ejercicio2(23));
 
+const ejercicio3 = (inversion1, inversion2, inversion3) => {
+    const total = inversion1 + inversion2 + inversion3;
+    porcentaje1 = (inversion1 * 100 / total);
+    porcentaje2 = (inversion2 * 100 / total);
+    porcentaje3 =(inversion3 * 100 / total);
+    return `Teniendo en cuenta que total invertido es de ${total}, el porcentaje para cada uno de los inversores es:"
+    \n El porcentaje para el inversor 1 es: ${porcentaje1}%, 
+    \n El porcentaje para el inversor 2 es: ${porcentaje2}%
+    \n El porcentaje para el inversor 3 es: ${porcentaje3}%`;
+};
+console.log(ejercicio3(500, 900, 700));
+
