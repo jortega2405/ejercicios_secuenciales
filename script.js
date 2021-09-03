@@ -28,3 +28,10 @@ function ejercicio1 (presion, volumen, temperatura){
     return (presion * volumen) / (0.37 * (temperatura + 460));
 };
 console.log(ejercicio1(43,38.5,35));
+
+function ejercicio2 (edad){
+    let num_pul = (200 - edad) / 10;
+    return `el numero de pulsaciones es de ${num_pul}`;
+};
+console.log(ejercicio2(23));
+
